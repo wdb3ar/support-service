@@ -14,7 +14,7 @@ td.mat-cell, th.mat-header-cell {
 }
 
 .date-cell {
-    width: 125px;
+    width: 130px;
 }
 
 .cdk-drag:not(.cdk-drag-preview) {
