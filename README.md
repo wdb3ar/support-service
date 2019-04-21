@@ -6,6 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Install JSON Server  
 `npm install -g json-server`  
+  
 Start JSON Server  
 `json-server --watch db.json`
 
