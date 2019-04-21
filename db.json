@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technical support"
+    },
+    {
+      "id": 2,
+      "name": "Marketing"
+    },
+    {
+      "id": 3,
+      "name": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "summary": "Help me please",
+      "from": "smit@gmail.com",
+      "date": "2019-04-20T06:08:42.555Z",
+      "categoryId": null,
+      "sortDate": null
+    },
+    {
+      "id": 2,
+      "summary": "Thanks for the work",
+      "from": "johnson@gmail.com",
+      "date": "2019-04-18T07:58:32.555Z",
+      "categoryId": null,
+      "sortDate": null
+    },
+    {
+      "id": 3,
+      "summary": "Commercial offer",
+      "from": "williams@gmail.com",
+      "date": "2019-04-17T11:58:07.555Z",
+      "categoryId": null,
+      "sortDate": null
+    },
+    {
+      "id": 4,
+      "summary": "Hello",
+      "from": "jones@gmail.com",
+      "date": "2019-04-15T06:11:45.123Z",
+      "categoryId": null,
+      "sortDate": null
+    },
+    {
+      "id": 5,
+      "summary": "How is it going?",
+      "from": "brown@gmail.com",
+      "date": "2019-03-18T01:28:32.255Z",
+      "categoryId": null,
+      "sortDate": null
+    },
+    {
+      "id": 6,
+      "summary": "Have a nice day!",
+      "from": "davis@gmail.com",
+      "date": "2019-04-12T10:18:07.554Z",
+      "categoryId": null,
+      "sortDate": null
+    }
+  ]
+}

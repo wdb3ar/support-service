@@ -1,0 +1,10 @@
+<div class="container" cdkDropListGroup>
+  <div class="container-column">
+    <app-message-table></app-message-table>
+  </div>
+
+  <div class="container-column">
+    <app-message-table *ngFor="let category of messageService.categories$ | async" [category]="category">
+    </app-message-table>
+  </div>
+</div>

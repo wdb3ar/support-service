@@ -1,0 +1,56 @@
+:host {
+    width: 90%;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid rgba(0,0,0,.12);
+    border-bottom: none;
+}
+
+td.mat-cell, th.mat-header-cell {
+    padding: 12px;
+}
+
+.date-cell {
+    width: 125px;
+}
+
+.cdk-drag:not(.cdk-drag-preview) {
+    transform: none !important;
+}
+
+.cdk-drag:not(.cdk-drag-disabled) {
+    cursor: move;
+}
+
+.cdk-drag-placeholder {
+    display: none;
+}
+
+.cdk-drag-preview {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.12);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 100;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: box-shadow .3s;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.1),
+                0 8px 10px 1px rgba(0, 0, 0, 0.07),
+                0 3px 14px 2px rgba(0, 0, 0, 0.06);
+}
+
+.cdk-drag-preview td {
+    border: none;
+}
+
+.cdk-drop-list-dragging {
+    transition: box-shadow .3s;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.1),
+    0 8px 10px 1px rgba(0, 0, 0, 0.07),
+    0 3px 14px 2px rgba(0, 0, 0, 0.06);
+}
