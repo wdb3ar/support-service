@@ -2,11 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
-## Back-end (Fake server)
+## Back-end (fake server)
 
-Install JSON Server
-`npm install -g json-server`
-Start JSON Server
+Install JSON Server  
+`npm install -g json-server`  
+Start JSON Server  
 `json-server --watch db.json`
 
 ## Development server
