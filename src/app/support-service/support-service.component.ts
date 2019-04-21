@@ -21,7 +21,7 @@ export class SupportServiceComponent implements OnInit {
   }
 
   getCategories(): Observable<Category[]> {
-    return this.messageService.categories$;
+    return this.messageService.getCategories();
   }
 
 }

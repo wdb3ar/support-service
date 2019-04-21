@@ -12,7 +12,7 @@ import { Message } from './message';
 })
 export class MessageService {
 
-  public categories$ = new BehaviorSubject<Category[]>([]);
+  private categories$ = new BehaviorSubject<Category[]>([]);
   private messages$ = new BehaviorSubject<Message[]>([]);
 
   constructor(private http: HttpClient) { }
@@ -72,6 +72,10 @@ export class MessageService {
 
   private compareSortDates(a: any, b: any): number {
     return new Date(a.sortDate).getTime() - new Date(b.sortDate).getTime();
+  }
+
+  public getCategories(): Observable<Category[]> {
+    return this.categories$;
   }
 
   public getMessagesByCategoryId(id: number): Observable<Message[]> {
