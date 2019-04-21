@@ -12,8 +12,6 @@ import { Category } from '../category';
 })
 export class SupportServiceComponent implements OnInit {
 
-  displayedColumns: string[] = ['summary', 'from', 'date'];
-
   constructor(private messageService: MessageService) { }
 
   ngOnInit() {
